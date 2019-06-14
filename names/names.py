@@ -31,11 +31,24 @@ f.close()
 #             duplicates.append(item_1)
 #     return duplicates
 
+
 # duplicates = compare_second(names_1, names_2)
 
+# # Third iteration
+# def compare_third(list_1, list_2):
+#     duplicates = []
+#     set_2 = set(list_2)
+#     for item_1 in list_1:
+#         if item_1 in set_2:
+#             duplicates.append(item_1)
+#     return duplicates
 
-# Third iteration
-def compare_third(list_1, list_2):
+
+# duplicates = compare_third(names_1, names_2)
+
+
+# Fourth iteration
+def compare_fourth(list_1, list_2):
     duplicates = []
     list_1_dictionary = {}
 
@@ -51,7 +64,7 @@ def compare_third(list_1, list_2):
     return duplicates
 
 
-duplicates = compare_third(names_1, names_2)
+duplicates = compare_fourth(names_1, names_2)
 
 
 end_time = time.time()
