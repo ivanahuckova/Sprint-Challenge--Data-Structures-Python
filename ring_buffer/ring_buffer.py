@@ -12,4 +12,4 @@ class RingBuffer:
             self.current = 0
 
     def get(self):
-        return [i for i in self.storage if i]
+        return [i for i in self.storage if i != None]
