@@ -19,5 +19,7 @@ Add your answers to the questions below.
    `O(n)`
 
 7) What is the runtime complexity of your optimized code in `names.py`?
+   `O(n)`
 
-8) What is the space complexity of your optimized code in `names.py`?
+8. What is the space complexity of your optimized code in `names.py`?
+   `O(1)`
